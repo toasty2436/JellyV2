@@ -1,6 +1,6 @@
 window.__CONFIG__ = {
   // The URL for the CORS proxy, the URL must NOT end with a slash!
-  VITE_CORS_PROXY_URL: "https://jellyprox.ryanlepley84.workers.dev",
+  VITE_CORS_PROXY_URL: "https://jellyv2.ryanlepley84.workers.dev/.",
 
   // The READ API key to access TMDB
   VITE_TMDB_READ_API_KEY: "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjOWMwZWVhNzU4YTIxMTIyMGI1YTI5YTE0NTZhNTJjZSIsInN1YiI6IjY1MjdmYTgzODEzODMxMDEzOTBlN2UyMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.lI9eaT6Iu6OySGlOB2eyGkNheSQvY-wBJzYtnNwtV_0",
