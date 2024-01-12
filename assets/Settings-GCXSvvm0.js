@@ -903,7 +903,7 @@ function At(s) {
             "pointer-events-none overflow-hidden w-full rounded": !0,
             "aspect-video relative": !s.fullscreen,
             "fixed inset-0 z-[60]": s.fullscreen 
-        }),
+        }), 
         children: [s.fullscreen && s.show ? t.jsx(Ss, {
             children: t.jsx("html", {
                 "data-no-scroll": !0
