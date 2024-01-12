@@ -1589,7 +1589,7 @@ const mo = {
         },
         morning: {
             default: "Welcome To Jelly!",
-            extra: ["I hear Before Sunrise is good"]
+            extra: ["Welcome To Jelly!"]
         },
         night: {
             default: "Welcome To Jelly!",
