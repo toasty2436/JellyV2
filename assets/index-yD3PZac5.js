@@ -1842,7 +1842,7 @@ const mo = {
     },
     subtitles: {
         title: "Subtitles",
-        previewQuote: "I must not fear. Fear is the mind-killer.",
+        previewQuote: "Rats are pretty cool animals ",
         textSizeLabel: "Text size",
         backgroundLabel: "Background opacity",
         colorLabel: "Color"
