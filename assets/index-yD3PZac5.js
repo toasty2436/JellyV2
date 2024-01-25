@@ -279,7 +279,7 @@ const Na = "4.2.5"
   , Ca = ""
   , Ea = "https://ko-fi.com/"
   , Ia = "G-44YVXRL61C"
-  , La = "https://backend.movie-web.app";
+  , La = "";
 var ie = {
     BASE_URL: "/",
     MODE: "production",
@@ -1873,7 +1873,7 @@ const mo = {
     sidebar: {
         info: {
             appVersion: "App version",
-            backendUrl: "Backend URL",
+            backendUrl: "",
             backendVersion: "Backend version",
             hostname: "Hostname",
             insecure: "Insecure",
