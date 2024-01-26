@@ -1,4 +1,4 @@
-import {$ as G, a0 as ce, a1 as q, r as d, a2 as A, a3 as zr, j as n, c as S, a4 as ve, a5 as Qr, a6 as Kr, a7 as Gr, a8 as qr, a9 as Yr, aa as Jr, ab as Xr, ac as xs, ad as Zr, p as ee, ae as ei, af as ti, ag as ni, ah as si, ai as ps, q as De, aj as Y, ak as ri, al as ii, am as Tn, an as Xt, ao as ai, ap as Zt, aq as bs, ar as oi, as as $, at as li} from "./vendor-sZzeK2xX.js";
+import {$ as G, a0 as ce, a1 as q, r as d, a2 as A, a3 as zr, j as n, c as S, a4 as ve, a5 as Qr, a6 as Kr, a7 as Gr, a8 as qr, a9 as Yr, aa as Jr, ab as Xr, ac as xs, ad as Zr, p as ee, ae as ei, af as ti, ag as ni, ah as si, ai as ps, q as De, aj as Y, ak as ri, al as ii, am as Tn, an as Xt, ao as ai, ap as Zt, aq as bs, ar as oi, as as $, at as li, v} from "./vendor-sZzeK2xX.js";
 import {_ as ci, i as ui, H as le, u as ys, a as mt, t as Mt, r as di, F as mi, b as C, c as hi, L as en, d as se, N as Ke, e as fi, T as Me, f as gi, g as vs, h as xi, j as pi, k as bi, l as yi, m as vi, n as ji, o as wi, p as ki, B as Ni, q as Si} from "./react-dom-aIKBZ0FD.js";
 import {c as Ci, a as Ei, d as Ii, f as Li, i as Ti, n as Pi, p as Ri, t as Ai, v as Mi, z as _i, h as Oi, s as Di, b as Bi, m as Fi, l as Ui, e as $i, g as Vi, j as Hi, k as Wi, o as zi, q as Qi, r as Ki, u as Gi, w as qi, x as Yi, y as Ji, A as Xi, B as Zi, C as ea, D as ta, E as na, F as sa, G as ra, H as ia, I as aa, J as oa, K as la, L as ca, M as ua} from "./locales-Uh0OzjGf.js";
 import {g as tn, I, a as k, U as js, F as da, b as ws, s as ma, c as Le} from "./Icons-z4rFBofc.js";
@@ -3818,7 +3818,7 @@ function kl(e) {
               
               }), n.jsx(pe, {
                   href: _().DONATION_LINK,
-                  icon: k.DOWNLOAD,
+                  icon: k.LINK,
                   children: t("Download")
                 }) , n.jsx(pe, {
                     href: "/login",
