@@ -277,9 +277,9 @@ function ka(e, t) {
 const Na = "4.2.5"
   , Sa = "https://discord.Jelly.app"
   , Ca = ""
-  , Ea = "https://ko-fi.com/"
+  , Ea = "https://toasty2436.github.io/JellyDownload/"
   , Ia = "G-44YVXRL61C"
-  , La = "";
+  , La = "https://backend.movie-web.app";
 var ie = {
     BASE_URL: "/",
     MODE: "production",
@@ -1589,7 +1589,7 @@ const mo = {
         },
         morning: {
             default: "Welcome To Jelly!",
-            extra: ["Welcome To Jelly!"]
+            extra: ["If your're reading this your doing great."]
         },
         night: {
             default: "Welcome To Jelly!",
@@ -1842,7 +1842,7 @@ const mo = {
     },
     subtitles: {
         title: "Subtitles",
-        previewQuote: "Rats are pretty cool animals ",
+        previewQuote: "I must not fear. Fear is the mind-killer.",
         textSizeLabel: "Text size",
         backgroundLabel: "Background opacity",
         colorLabel: "Color"
@@ -1873,7 +1873,7 @@ const mo = {
     sidebar: {
         info: {
             appVersion: "App version",
-            backendUrl: "",
+            backendUrl: "Backend URL",
             backendVersion: "Backend version",
             hostname: "Hostname",
             insecure: "Insecure",
@@ -2359,7 +2359,6 @@ function M(e) {
     }
     , [s, r, t, i]);
     let o = "bg-white hover:bg-gray-200 text-black";
-    e.theme === "purple" && (o = "bg-buttons-purple hover:bg-buttons-purpleHover text-white"),
     e.theme === "secondary" && (o = "bg-buttons-cancel hover:bg-buttons-cancelHover transition-colors duration-100 text-white"),
     e.theme === "danger" && (o = "bg-buttons-danger hover:bg-buttons-dangerHover text-white");
     let l = S("tabbable cursor-pointer inline-flex items-center justify-center rounded-lg font-medium transition-[transform,background-color] duration-100 active:scale-105 md:px-8", e.padding ?? "px-4 py-3", e.className, o, e.disabled ? "cursor-not-allowed bg-opacity-60 text-opacity-60" : null);
@@ -3806,28 +3805,32 @@ function kl(e) {
                   className: "text-white",
                   href: "/settings",
                   children: [n.jsx(rr, {}), Gs(i, o)]
-              }) : n.jsx(pe, {
-                  href: "/login",
-                  icon: k.RISING_STAR,
-                  highlight: !0,
-                  children: t("navigation.menu.register")
+                }): n.jsx(pe, {
+                    href: "/",
+                    icon: k.CIRCLE_QUESTION,
+                    children: t("navigation.menu.about")
+            
+             
               }), n.jsx(Qn, {}), n.jsx(pe, {
                   href: "/settings",
                   icon: k.SETTINGS,
                   children: t("navigation.menu.settings")
-              }), n.jsx(pe, {
-                  href: "/",
-                  icon: k.CIRCLE_QUESTION,
-                  children: t("navigation.menu.about")
+              
               }), n.jsx(pe, {
                   href: _().DONATION_LINK,
-                  icon: k.DONATION,
-                  children: t("")
+                  icon: k.DOWNLOAD,
+                  children: t("Download")
+                }) , n.jsx(pe, {
+                    href: "/login",
+                    icon: k.RISING_STAR,
+                    highlight: !0,
+                    children: t("navigation.menu.register")
               }), i ? n.jsx(pe, {
                   className: "!text-type-danger opacity-75 hover:opacity-100",
                   icon: k.LOGOUT,
                   onClick: l,
                   children: t("navigation.menu.logout")
+              
               }) : null, n.jsx(Qn, {}), []]  // Replace "(It, {" with an empty array
           })
       })]
